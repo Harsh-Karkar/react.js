@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+}
+
+/* css color */
+
+/* .rgb{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0,120,255);
+} */
+
+/* .rgba{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0,120,255,1);
+} */
+
+/* .hex{
+    height: 400px;
+    width: 400px;
+    background-color: #ff0000;
+} */
+
+/* .hsl{
+    height: 400px;
+    width: 400px;
+    background-color:hsl(250deg , 50% , 90%);
+} */
+
+
+/* css background properties */
+
+.back-image{
+    /* background-image: url('../image/big.jpg'); */
+    background-color: blue;
+    background-repeat:no-repeat;
+    border:50px solid transparent;
+    padding: 50px;
+    background-size: cover;
+    height: 500px;
+    background-clip: content-box;
+    /* background-origin: content-box; */
+}
+
+
+
+
+
+
+
+.linear-gradient-1{
+    height: 300px;
+    width:300px;
+    background: linear-gradient(to bottom, red, blue , yellow);
+    display: inline-block;
+}
+
+.diagonal-linear-gradient {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to top, red 45% , yellow 45%);
+    display: inline-block;
+}
+
+.linear-gradient-rainbow {
+    height: 300px;
+    width:300px;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+    display: inline-block;
+}
+
+.radial-gradient-simple {
+    height: 300px;
+    width: 300px;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+    display: inline-block;
+}
+
+.radial-gradient {
+    height: 300px;
+    width:300px;
+    background: radial-gradient(circle farthest-corner at right, red, blue);
+    display: inline-block;
+}
+
+.bullseye {
+    height: 300px;
+    width:300px;
+    background: repeating-radial-gradient(red, red 5%, white , white 20%);
+    display: inline-block;
+}
+
+.warning {
+    height: 300px;
+    width:300px;
+    background: repeating-linear-gradient(90deg, yellow, yellow 10%, black 10%, black 20% );
+    display: inline-block;
+}
+
+.conic{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,51,1) 47%, rgba(0,212,255,1) 100%);
+    display: inline-block;
+} 
+
+
+/* css border properties */
+
+/* css border types
+    solid
+    dotted
+    dashed
+    double
+    hidden
+    none
+    ridge
+    inset
+    outset
+    groove
+*/
+
+/* .border{
+    height: 500px;
+    width: 500px;
+    border:20px solid green;
+    margin: 50px;
+    border-radius: 50px 100px 150px 200px;
+} */
+
+
+
+/* border radius */
+
+
+
+/* css outline properties */
+
+/*
+outline:none;
+outline:width style color;
+*/
+
+/* .outline{
+    height: 200px;
+    width: 200px;
+    border:10px solid black;
+    outline:10px dotted blue;
+    outline-offset: 50px;
+    margin: 100px;
+} */
+
+
+
+/* css opacity */
+
+/* .opacity{
+    opacity: 0;
+    background-color: green;
+    height: 300px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+

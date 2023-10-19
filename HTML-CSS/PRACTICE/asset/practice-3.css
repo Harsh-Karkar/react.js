@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .margin{
+    height: 300px;
+    width: 300px;
+    border: 5px double red;
+    background-color: hwb(147.22deg 41.18% 0% / 50%);
+    margin: 50px;
+}
+
+.padding{
+    height: 300px;
+    width: 300px;
+    border: 5px double red;    
+    padding: 20px;
+} */
+
+.content-box{
+    height: 200px;
+    width: 200px;
+    border:1px dotted green;
+    background-color: darkmagenta;
+    box-sizing: content-box;
+    padding: 50px;
+
+}
+
+.border-box{
+    height: 200px;
+    width: 200px;
+    border:1px dotted green;
+    background-color: darkmagenta;
+    box-sizing: border-box;
+    padding: 50px;
+}

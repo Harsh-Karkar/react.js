@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+
+/* accent-color*/
+
+/* input{
+    accent-color: red;
+} */
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+/* ::placeholder{
+    color:red;
+    background-color: green;
+} */
+
+input:focus{
+    /* border:2px solid green; */
+    /* outline:2px solid green; */
+    outline: none;
+    border:none;
+}
+
+input:hover{
+    /* border:2px solid green; */
+    /* outline:2px solid green; */
+    outline: none;
+    border:none;
+}
+
+/* input:invalid{
+    background-color: red;
+}
+input:valid{
+    background-color: green;
+}
+
+ul li::marker{
+    color:red;
+    font-size: 50px;
+}
+
+ol li::marker{
+    color:red;
+    font-size: 50px;
+} */
+
+
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+
+/* p:read-only{
+    background-color: blue;
+}
+
+textarea:read-write{
+    color:yellow;
+}
+
+:root{
+    --color-1:red;
+    --color-2:green;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color-2);
+}
+:lang(en){
+    background-color: red;
+} */
+
+/* css pseudo class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :target
+    :empty
+
+*/
+
+h1:nth-of-type(15   ){
+    background-color: green;
+    color:red;
+}
+
+
+
+/* attributes selector */
+
+/*
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value]
+
+*/
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+
+.box a::after{
+    content: " ";
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+p::selection{
+    color:green;
+    background-color: red;
+    text-decoration: underline;
+}
+

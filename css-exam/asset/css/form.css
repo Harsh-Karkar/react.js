@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+form{
+    border: 2px solid black;
+    text-align: center;
+    height: 97vh;
+    width: 97vw;
+}
+
+.side-2{
+    display: inline-block;
+    text-align: left;
+}
+
+
+#sec-3{
+    margin-left: 40px;
+    width: 70%;
+    /* border: 2px solid red; */
+    text-align:left ;
+}
+
+#sec-4{
+    width: 259px;
+    /* border: 2px solid yellow; */
+    background-color: aqua;
+}

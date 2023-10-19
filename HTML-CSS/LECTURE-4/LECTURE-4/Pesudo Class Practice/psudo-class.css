@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+a:nth-child(3n+1){
+    background-color:burlywood;
+    color:yellow;
+}  /* 1,2*/
+
+/* h1:nth-child(3){
+    color: yellow;
+    background-color: burlywood;
+} */
+
+h1:nth-child(6){
+    background-color:burlywood;
+    color:yellow;
+}  /*  4  */
+
+input:nth-child(9){
+    background-color:burlywood;
+    color:yellow;
+}  /*  5  */
+
+h1:only-of-type{
+    background-color:burlywood;
+    color:yellow;
+} /*  6,7,8,9  */
+
+.heading,h1:nth-child(12)
+{
+    background-color:burlywood;
+    color:yellow; 
+}   /*  10 */
+
+h1:nth-child(13){
+    background-color:burlywood;
+    color:yellow;
+}  /* 12 */
+
+h1:nth-child(14){
+    background-color:burlywood;
+    color:yellow;
+}  /* 13 */
+
+p:only-child{
+    background-color:burlywood;
+    color:yellow;
+}  /* 14  */
+
+p:nth-child(2){
+    background-color:burlywood;
+    color:yellow;
+}  /* 15 */
+
+div div h1:first-child{
+    background-color:burlywood;
+    color:yellow;
+} /* 19 */
+
+span h1:last-child{
+    background-color:burlywood;
+    color:yellow;
+}  /* 18 */
+
+h1:nth-child(19){
+    background-color:burlywood;
+    color:yellow;
+}  /*  20  */
+
+h1:nth-child(22){
+    background-color:burlywood;
+    color:yellow;
+} /* 21  */
+
+div:nth-child(12) h1:nth-child(2){
+    background-color: burlywood;
+    color: yellow;
+} /* 11 */
+
+div:nth-child(17) div:nth-child(3) h1:last-child{
+    background-color: burlywood;
+    color: yellow;
+}/* 17 */
+
+div:nth-child(17) h1:nth-child(1){
+    background-color: transparent;
+    color: black;
+}
+div:nth-child(17) div:nth-child(3) div:nth-child(1) h1:nth-child(1){
+    background-color: burlywood;
+    color: yellow;
+} /* 16 */
+
+h1:nth-last-child(22){
+    background-color: burlywood;
+    color: yellow;
+}

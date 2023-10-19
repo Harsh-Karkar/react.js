@@ -1,0 +1,31 @@
+.linear-gradient-1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background: linear-gradient(to bottom, red, blue , yellow, orange , magenta);
+    display: inline-block;
+}
+
+.diagonal-linear-gradient{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background: linear-gradient(to bottom right, red 50% , yellow 50%);
+    display: inline-block;
+}
+
+.linear-gradient-rainbow{
+    height: 400px;
+    width:400px;
+    border: 2px solid red;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+    display: inline-block;
+}
+
+.radial-gradient-simple{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background: radial-gradient(red,blue,green,yellow,orange,black);
+    display: inline-block;
+}

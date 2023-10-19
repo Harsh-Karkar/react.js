@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    width: 400px;
+}
+
+.stairs {
+    position: absolute;
+    bottom: 0;
+}
+
+.step {
+    width: 100px;
+    height: 20px;
+    background-color: #3498db;
+    margin-bottom: 20px;
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+.step::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 20px solid #3498db;
+}
+
+.step:hover {
+    background-color: #e74c3c;
+}

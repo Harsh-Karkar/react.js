@@ -26,7 +26,7 @@ p{
 
 /* css class selector */
 
-#bt-1{
+/* #bt-1{
     background-color: purple;
     border:none;
 }
@@ -46,7 +46,7 @@ p{
 
 .btn-4:hover{
     color:darkolivegreen;
-}
+} */
 
 
 /*css id selector*/
@@ -81,7 +81,7 @@ p{
     visited
 */
 
-a:link{
+/* a:link{
 background-color: red;
 }
 a:active{
@@ -91,7 +91,7 @@ a:hover{
     background-color: brown;
     transition-duration: 2000ms;
 }
-/* a:visited{
+a:visited{
     background-color: black;
 } */
 
