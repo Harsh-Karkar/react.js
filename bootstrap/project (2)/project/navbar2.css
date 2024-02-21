@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+/* .vasu{
+    margin-left: 30px;
+} */
+
+.vasu{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.bg-body-tertiary {
+    /* --bs-bg-opacity: 1; */
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+
+

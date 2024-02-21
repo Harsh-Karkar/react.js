@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to left,red,yellow) ;
+}
+
+.one{
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+button:focus {
+    outline-color: black;
+}
+/* .accordion-button::after{
+    
+} */
+
+.accordion-item {
+    /* box-sizing: none; */
+    border: 0px;
+    
+}

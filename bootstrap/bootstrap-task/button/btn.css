@@ -1,0 +1,25 @@
+.harsh-1{
+    text-align: center;
+}
+h1{
+    padding-top:70px;
+}
+h6{
+    color: gray;
+}
+span{
+  vertical-align: middle;
+}
+.harsh-2{
+ text-align: center !important;
+ margin-left: 450px !important;
+ margin-top: 100px;
+}
+
+.h1{
+    height: 100px;
+    width: 200px;
+    padding: 30px;
+    font-size: 30px;
+}
+

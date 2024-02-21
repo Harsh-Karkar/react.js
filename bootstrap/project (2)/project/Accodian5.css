@@ -1,0 +1,25 @@
+.one{
+    background-color: none;
+}
+
+.two{
+    margin: auto;
+    margin-top: 200px;
+}
+
+body{
+    background-color: orangered;
+}
+
+.line{
+    color: aliceblue;
+    margin-left: 35px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right:40px;
+    
+}

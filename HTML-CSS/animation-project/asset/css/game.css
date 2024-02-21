@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid rgb(161, 98, 16);
+    overflow: hidden;
+}
+
+.icon-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: ball-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.icon-2{
+    position: absolute;
+    right:0;
+    top: 0;
+    animation-name: ball-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;  
+}
+
+@keyframes ball-1{
+    0%{
+        transform: translate(0px);
+    }
+    20%{
+        transform: translate(1436px,200px);
+    }
+    50%{
+        transform: translate(0px,620px);
+    }
+    100%{
+        transform: translate(755px,200px) ;
+    }
+}
+
+@keyframes ball-2{
+    0%{
+        transform: translate(0px) rotate(30deg);
+    }
+    20%{
+        transform: translate(-1436px,395px) rotate(80deg);
+    }
+    50%{
+        transform: translate(0,620px) rotate(140deg);
+    }
+    100%{
+        transform: translate(-670px,300px) rotate(360deg);
+        /* border: 2px solid black; */
+    }
+}
+

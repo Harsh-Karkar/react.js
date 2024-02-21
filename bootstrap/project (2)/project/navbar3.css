@@ -1,0 +1,22 @@
+.text{
+    color:aliceblue;
+} 
+
+/* .margin{
+    margin: auto;
+} */
+
+body{
+    background-color: skyblue;
+}
+
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important; */
+}
+
+.vasu{
+    margin-left: 50px;
+}

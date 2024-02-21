@@ -1,0 +1,12 @@
+.card-img-top{
+    height: 80px ;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.card{
+    background-color: rgb(37, 35, 35);
+}

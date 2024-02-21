@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(2, 2, 44);
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+
+.one{
+    width: 150px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.two{
+    width: 150px;
+    text-align: center;
+    padding: 20px; 
+    /* margin-left: px; */
+}
+
+

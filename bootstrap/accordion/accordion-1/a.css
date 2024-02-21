@@ -1,0 +1,31 @@
+.accordion-button:not(.collapsed){
+    animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+.accordion-body{
+    color: saddlebrown;
+    background-color: khaki;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+    animation-fill-mode: both;
+
+}
+
+@keyframes example {
+    0% {background-color: red;
+    color: white;}
+    40% {background-color: yellow; 
+    color: black;}
+    70%{
+        background-color: brown;
+        color: yellow;
+    }
+    100%{
+        background-color: darkred;
+        color: chartreuse;
+    }
+  }
