@@ -5,9 +5,9 @@
 // ...	Spread
 
 {
-  // const numbers = [26,5,21,100];
-  // let maxValue = Math.max(...numbers);
-  // console.log(maxValue);
+  const numbers = [26,5,21,100];
+  let maxValue = Math.min(...numbers);
+  console.log(maxValue);
 }
 
 // =>	Arrow

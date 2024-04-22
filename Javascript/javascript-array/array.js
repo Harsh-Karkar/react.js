@@ -48,14 +48,14 @@
 /* Popping in javascript Array */
 
 {
-    // const fruits = ["Banana", "Orange", "Apple", "Mango"];
-    // document.getElementById("demo").innerHTML = fruits;
+   //  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+   // //  document.getElementById("demo").innerHTML = fruits;
     
-    // document.getElementById("demo-1").innerHTML =  fruits.pop();
+   // //  document.getElementById("demo-1").innerHTML =  fruits.pop();
+   // fruits.pop()
+   //  console.log(fruits);
     
-    // console.log(fruits);
-    
-    // console.log(fruits.length);
+   //  console.log(fruits.length);
 }
 
 /* The pop() method returns the value that was "popped out" */
@@ -225,11 +225,11 @@
  
  {
 
-    // let flatmap = [1 , 2 , 3 , 4]
+   //  let flatmap = [1 , 2 , 3 , 4]
 
-    // let flatmap1 = flatmap.flatMap((num) => num === 3 ? [1,1] : 2)
+   //  let flatmap1 = flatmap.flatMap((num) => num === 3 ? [1,1] : 2)
 
-    // console.log(flatmap1);
+   //  console.log(flatmap1);
  }
 
  /* Javascript Array flat() */

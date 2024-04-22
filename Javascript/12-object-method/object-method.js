@@ -180,7 +180,7 @@
 
 {
   // let Student = {
-  //     name: "Lisa",
+  //     name: "harsh",
   //     age: 24,
   //     marks: 78.9,
   //     // display() {
@@ -195,7 +195,7 @@
   //   let std2 = Object.assign(std1 , Student)
 
     
-  //   std1.name = "Sheeran";
+  //   std1.name = "harshita";
     
   //   console.log(std2);
     // console.log(std1);
@@ -206,31 +206,31 @@
 // 3.  JavaScript Object.entries()
 
 {
-  // const obj = { 
-  //   name: "Adam",
-  //    age: 20,
-  //     location: "Nepal"
-  //    };
+  const obj = { 
+    name: "harsh",
+     age: 21,
+      location: "surat"
+     };
 
-  // let Obj1 = Object.entries(obj);
+  let Obj1 = Object.entries(obj);
 
-  // console.log(Obj1[2]);
+  console.log(Obj1[2]);
 }
 
 {
   // // keys are arranged randomly
-  // const obj = { 42: "a", 22: "b", 71: "c" };
+  const obj = { 47: "a", 20: "b", 55: "c" };
 
-  // // returns key-value pairs arranged
-  // // in ascending order of keys
-  // console.log(Object.entries(obj));
+  // returns key-value pairs arranged
+  // in ascending order of keys
+  console.log(Object.entries(obj));
 
 }
 
 // entries() to Iterate Through Key-Value Pairs
 
 {
-  // const obj = { name: "John", age: 27, location: "Nepal" };
+  // const obj = { name: "harsh", age: 21, location: "surat" };
 
   // // iterate through key-value pairs of object
   // for (const [key, value] of Object.entries(obj)) {
@@ -358,16 +358,16 @@
 {
   // The Object.getOwnPropertyNames() method returns an array of all the properties found in a given object.
 
-  // const obj = {
-  //     name: 'Alexander',
-  //     age: 32,
-  //     address: 'Macedonia',
-  //   };
+  const obj = {
+      name: 'Alexander',
+      age: 32,
+      address: 'Macedonia',
+    };
     
-  //   // find out the properties present in obj
-  //   const propertyNames = Object.getOwnPropertyNames(obj);
+    // find out the properties present in obj
+    const propertyNames = Object.getOwnPropertyNames(obj);
     
-  //   console.log(propertyNames);
+    console.log(propertyNames);
     
 }
 
@@ -429,10 +429,10 @@
   // The Object.values() method returns an array containing the enumerable values of an object.
 
   // array-like object having integers as key
-  const obj = { 65: "A", 66: "B", 67: "C" };
+  // const obj = { 65: "A", 66: "B", 67: "C" };
 
-  // print the enumerable values of obj
-  console.log(Object.values(obj));
+  // // print the enumerable values of obj
+  // console.log(Object.values(obj));
 
 }
 
@@ -440,10 +440,10 @@
   // values() With Object Having Random Key Ordering
 
   // object with random key ordering
-  const obj1 = { 42: "a", 22: "b", 71: "c" };
+  // const obj1 = { 42: "a", 22: "b", 71: "c" };
 
-  // print the enumerable values of obj1
-  console.log(Object.values(obj1));
+  // // print the enumerable values of obj1
+  // console.log(Object.values(obj1));
 
 }
 
