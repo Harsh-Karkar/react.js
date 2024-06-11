@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="array.js"></script>
+    <!-- <script src="array.js"></script> -->
 </head>
 <body>
-    
+    <div id="demo"></div>
+<div id="demo-1"></div>
+<div id="demo-2"></div>
+<div id="demo-3"></div>
+
+<script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+    document.getElementById("demo").innerHTML = fruits;
+
+    const demo1 = document.getElementById("demo-1");
+    demo1.innerHTML = fruits.pop();
+
+    const demo2 = document.getElementById("demo-2");
+    demo2.innerHTML = fruits.pop();
+
+    const demo3 = document.getElementById("demo-3");
+    demo3.innerHTML = fruits.pop();
+
+    console.log(fruits);
+</script>
 </body>
 </html>

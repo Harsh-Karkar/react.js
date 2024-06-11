@@ -1,0 +1,31 @@
+{
+  "User": [
+    {
+      "id": "7fde",
+      "firstname": "ramesh",
+      "lastname": "baldha",
+      "age": "85",
+      "profession": "drinking",
+      "number": "85858585",
+      "image": null
+    },
+    {
+      "id": "5bb9",
+      "firstname": "deep",
+      "lastname": "paddoo",
+      "age": "18",
+      "profession": "rakhdna",
+      "number": "nathi devo ja",
+      "image": null
+    },
+    {
+      "id": "216b",
+      "firstname": "vasu",
+      "lastname": "vihar",
+      "age": "20",
+      "profession": "judva 4",
+      "number": "phone j nathi",
+      "image": null
+    }
+  ]
+}

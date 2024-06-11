@@ -38,10 +38,10 @@
 /* The join() method also joins all array elements into a string. */
 
 {
-    // let arry = ["option-1" , "gamit" , false , 1 , "skill" , "development"];
-    // let arry2 = arry.join("+")
-    // console.log(arry2);
-    // console.log(typeof(arry2));
+   //  let arry = ["option-1" , "gamit" , false , 1 , "skill" , "development"];
+   //  let arry2 = arry.join("+")
+   //  console.log(arry2);
+   //  console.log(typeof(arry2));
 }
 
 
@@ -61,15 +61,15 @@
 /* The pop() method returns the value that was "popped out" */
 
 // {
-//     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-//     document.getElementById("demo").innerHTML = fruits;
+    document.getElementById("demo").innerHTML = fruits;
     
-//     document.getElementById("demo-1").innerHTML = fruits.pop();
-//     document.getElementById("demo-2").innerHTML = fruits.pop();
-//     document.getElementById("demo-3").innerHTML = fruits.pop();
+    document.getElementById("demo-1").innerHTML = fruits.pop();
+    document.getElementById("demo-2").innerHTML = fruits.pop();
+    document.getElementById("demo-3").innerHTML = fruits.pop();
 
-//     console.log(fruits);
+    console.log(fruits);
 // }
 
 /* Pushing in javascript Array */
